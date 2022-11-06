@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        hi
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="icon" href="logo.jpg">
         <link rel="stylesheet" href="drop_drag.css">
