@@ -30,8 +30,8 @@
 %>
 <%
     Class.forName("com.mysql.cj.jdbc.Driver");
-    String url="jdbc:mysql://localhost:3306/pdms?zeroDateTimeBehavior=CONVERT_TO_NULL";
-    Connection con = DriverManager.getConnection(url,"root","123456");
+    String url="jdbc:mysql://sql12.freesqldatabase.com:3306/sql12547817";
+    Connection con = DriverManager.getConnection(url,"sql12547817","7rC5E16IkC");
     String user = request.getParameter("username");
     String pass = request.getParameter("password");
     String uid = "";
