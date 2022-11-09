@@ -325,7 +325,6 @@
     </head>
     <body>
     <%
-    try{
         Connection con = (Connection)session.getAttribute("connection");
         Statement stm = con.createStatement();
         ResultSet rs = null;
@@ -1200,15 +1199,6 @@
             </div>
             </div>        
         </div>
-    <%
-    }
-    catch(Exception e)
-    {
-        %>
-        <%=e.getMessage()%>
-        <%
-    }
-    %>
     <script src="drop_drag.js"></script>
     <script type="text/javascript">
         if(document.getElementById("imgInp"))
